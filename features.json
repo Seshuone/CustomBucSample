@@ -64,5 +64,28 @@
       }
     ],
     "type": "IFRAME"
-  }
+  },
+  {
+    "featureId": "custom-order-home",
+    "parentFeatureId": "custom-oms-buc-customization-app",
+    "sequence": 0.101,
+    "title": "Order Home",
+    "iconName": "website-20",
+    "link": "/custom-ohub-sample/home/orderhome",
+    "path": "/custom-ohub-sample/home/orderhome",
+    "description": [
+        {
+            "locale": "en_US",
+            "language": "en",
+            "title": "Order Home"
+        }
+    ],
+    "hidden": false,
+    "state": "ACTIVE",
+    "allowedRoles": [
+        "Fulfillment Manager",
+        "Tenant Administrator"
+    ],
+    "type": "IFRAME"
+}
 ]

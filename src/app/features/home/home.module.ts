@@ -13,6 +13,7 @@ import {
 } from '@buc/svc-angular';
 import { IVHomeComponent } from './ivhome/ivhome.component';
 import { OMSHomeComponent } from './omshome/omshome.component';
+import { ORDERHomeComponent } from './orderhome/orderhome.component';
 
 export class OmsBucCustomizationHomeModuleBundles {
   static bundles: Array<any> = [{
@@ -21,6 +22,10 @@ export class OmsBucCustomizationHomeModuleBundles {
   },
   {
     prefix: './assets/custom-ohub-sample/i18n/home/omshome/',
+    suffix: '.json'
+  },
+  {
+    prefix: './assets/custom-ohub-sample/i18n/home/orderhome/',
     suffix: '.json'
   }];
 }
@@ -36,7 +41,8 @@ export function omsBucCustomizationHomeModuleHttpLoaderFactory(http: HttpClient)
 @NgModule({
   declarations: [
     IVHomeComponent,
-    OMSHomeComponent
+    OMSHomeComponent,
+	ORDERHomeComponent
   ],
   imports: [
     CommonModule,

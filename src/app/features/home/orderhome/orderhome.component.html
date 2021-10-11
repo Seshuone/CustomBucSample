@@ -1,0 +1,12 @@
+<div>
+    <h2>Mattel Orders Home</h2>
+</div>
+<div>
+  <div>Order List</div>
+	
+  <div class="moderate-background">
+    <pre *ngIf="getOrdListJsonStr != '' && getOrdListJsonStr != null">{{getOrdListJsonStr}}</pre>
+    <div *ngIf="getOrdListJsonStr == ''">{{'ORDERHOME.LOADING' | translate}}</div>
+    <div *ngIf="getOrdListJsonStr == null">{{'ORDERHOME.ERROR' | translate}}</div>
+  </div>
+</div>
