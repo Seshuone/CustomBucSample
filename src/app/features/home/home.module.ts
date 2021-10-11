@@ -16,11 +16,11 @@ import { OMSHomeComponent } from './omshome/omshome.component';
 
 export class OmsBucCustomizationHomeModuleBundles {
   static bundles: Array<any> = [{
-    prefix: './assets/oms-buc-customization/i18n/home/ivhome/',
+    prefix: './assets/custom-ohub-sample/i18n/home/ivhome/',
     suffix: '.json'
   },
   {
-    prefix: './assets/oms-buc-customization/i18n/home/omshome/',
+    prefix: './assets/custom-ohub-sample/i18n/home/omshome/',
     suffix: '.json'
   }];
 }

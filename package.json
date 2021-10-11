@@ -1,9 +1,9 @@
 {
-  "name": "oms-buc-customization",
+  "name": "custom-ohub-sample",
   "version": "1.2005.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 9000 --ssl --source-map --base-href=/oms-buc-customization/ --host=bucgenerichost",
+    "start": "ng serve --port 9000 --ssl --source-map --base-href=/custom-ohub-sample/ --host=bucgenerichost",
     "build": "ng build --aot --prod",
     "test": "ng test",
     "lint": "ng lint",

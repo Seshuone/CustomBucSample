@@ -20,7 +20,7 @@ import { AppComponent } from './app.component';
 
 export class OmsBucCustomizationAppModuleBundles {
   static bundles: Array<any> = [{
-      prefix: './assets/oms-buc-customization/i18n/',
+      prefix: './assets/custom-ohub-sample/i18n/',
       suffix: '.json'
   }];
 }
@@ -55,7 +55,7 @@ export function omsBucCustomizationAppModuleHttpLoaderFactory(http: HttpClient) 
     AppRoutingModule
   ],
   providers: [
-    // Any other interceptor added by oms-buc-customization to be added before.
+    // Any other interceptor added by custom-ohub-sample to be added before.
     {
       provide: HTTP_INTERCEPTORS,
       useClass: BucCommBEHttpInterceptorService,

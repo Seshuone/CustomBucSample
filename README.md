@@ -34,8 +34,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 7. Rename the currently checked out project folder (`oms-buc-customization`) with the new name that was chosen for your custom git repository. Let us assume the name chosen was: `custom-oms-buc-customization`. So, this would be the name for the folder.
 8. `cd custom-oms-buc-customization`: Enter the directory.
 9. Remove the reference of the old repository name `oms-buc-customization` from all the files like `package.json`, `readme`, `angular.json`, routing files etc. and use the new name for the repository used in `step8`: `custom-oms-buc-customization`. You can use and editor of choice like Visual Studio Code to do this.
-10. Change the title in `README.md` and `index.html` from `OmsBucCustomization` to the required value like: `CustomOmsBucCustomization`.
-11. The files `app.module.ts` and `home.module.ts` contain 2 method and 2 classname references each, that start with `OmsBucCustomization` and `omsBucCustomization`. These will need to be updated to the new naming convention as well and will start with: `CustomOmsBucCustomization` and `customOmsBucCustomization`.
+10. Change the title in `README.md` and `index.html` from `CustomBucSample` to the required value like: `CustomCustomBucSample`.
+11. The files `app.module.ts` and `home.module.ts` contain 2 method and 2 classname references each, that start with `CustomBucSample` and `CustomBucSample`. These will need to be updated to the new naming convention as well and will start with: `CustomCustomBucSample` and `customCustomBucSample`.
 12. Rename the folder used for i18n files: `/src/assets/oms-buc-customization` as `/src/assets/custom-oms-buc-customization`.
 13. `ng config -g cli.packageManager yarn`: Set yarn as the package manager for this Angular CLI based project.
 14. `yarn install`: Install all dependencies using Yarn.

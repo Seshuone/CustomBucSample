@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('oms-buc-customization app is running!');
+    expect(page.getTitleText()).toEqual('custom-ohub-sample app is running!');
   });
 
   afterEach(async () => {

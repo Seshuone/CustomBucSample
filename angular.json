@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "oms-buc-customization": {
+    "custom-ohub-sample": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/oms-buc-customization",
+            "outputPath": "dist/custom-ohub-sample",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "oms-buc-customization:build"
+            "browserTarget": "custom-ohub-sample:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "oms-buc-customization:build:production"
+              "browserTarget": "custom-ohub-sample:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "oms-buc-customization:build"
+            "browserTarget": "custom-ohub-sample:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "oms-buc-customization:serve"
+            "devServerTarget": "custom-ohub-sample:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "oms-buc-customization:serve:production"
+              "devServerTarget": "custom-ohub-sample:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "oms-buc-customization"
+  "defaultProject": "custom-ohub-sample"
 }

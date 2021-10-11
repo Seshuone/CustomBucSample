@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'oms-buc-customization'`, () => {
+  it(`should have as title 'custom-ohub-sample'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('oms-buc-customization');
+    expect(app.title).toEqual('custom-ohub-sample');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('oms-buc-customization app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('custom-ohub-sample app is running!');
   });
 });
